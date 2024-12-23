@@ -1,0 +1,95 @@
+/* Contenedor principal del formulario */
+.formulario-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Título del formulario */
+.formulario-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos generales para los inputs */
+.formulario-container input {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Etiquetas de los campos */
+.formulario-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Botones */
+.formulario-container button {
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botón de agregar materias */
+.formulario-container button[type="button"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+.formulario-container button[type="button"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Botón de enviar */
+.formulario-container button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+.formulario-container button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Botón de eliminar materia */
+.formulario-container button.eliminar-materia {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+.formulario-container button.eliminar-materia:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+/* Mensaje de confirmación */
+.mensaje-confirmacion {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e7f7e7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: green;
+    font-size: 14px;
+    white-space: pre-line;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
